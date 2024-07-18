@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap');
 body{
     font-family: "Roboto Slab", serif;
+    background-color: black;
 }
 
 
@@ -42,4 +43,47 @@ body{
 }
 .nav-list a{
     color: white;
+}
+/* get-body styel here */
+.get-body-container{
+    margin: 0 auto;
+    border: 2px solid green;
+}
+.get-body-contant{
+    border: 2px solid yellow;
+    width: 520px;
+}
+.get-body-title{
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
+}
+#shape{
+    font-family: "Playwrite CU", cursive;
+    color: white;
+}
+.get-body-discription{
+    color: white;
+    fill: 50%;
+}
+.btn{
+    border: none;
+    border-radius: 20px;
+    padding:16px 47px ;
+    font-weight: 600;
+    color: white;
+    background-color:rgba(230, 83, 60, 1.00) ;
+    margin-left: 10px;
+}
+.btn-primary{
+    border: none;
+    border-radius: 20px;
+    padding:16px 47px ;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(39, 34, 34);
+    margin-left: 20px;
+}
+.get-body-image{
+    margin-left: 167px;
 }
